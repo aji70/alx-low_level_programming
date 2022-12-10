@@ -5,16 +5,22 @@
 /**
  * main - Entry Point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char low;
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
 
 	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+	putchar('\n');
 
 	return (0);
 }
