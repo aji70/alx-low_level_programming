@@ -1,1 +1,1 @@
-void charword[];
+void charword[8];
