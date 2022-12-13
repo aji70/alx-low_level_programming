@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -11,7 +9,7 @@
 
 int main(void)
 {
-	charword[8] = "_putchar";
+	char word[8] = "_putchar";
 
 	int i;
 
