@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code for main
+ * main - check the code
  *
- * Return: Always 0
+ * Description: the function
+ *
+ * Return: Always o
  */
 
 int main(void)
