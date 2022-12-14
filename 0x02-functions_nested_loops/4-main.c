@@ -3,8 +3,11 @@
 /**
  * main - check the code
  *
+ * Description: Function for _isalpha
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
 	int r;
