@@ -7,6 +7,7 @@
  * Return: 1 if the number is positive, o if the number is 0, or
  * -1 if the number is negative
  */
+
 int print_sign(int n)
 {
 	int value;
@@ -19,7 +20,7 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		value = 0;
-		_putchar('0')
+		_putchar('0');
 	}
 	else
 	{
