@@ -1,4 +1,5 @@
 #include "main.h"
+int check_seperators(char c);
 
 /**
  * cap_string - a function that capitalizes alll words of a string
