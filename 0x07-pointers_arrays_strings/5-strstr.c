@@ -25,7 +25,7 @@ char *_strstr(char *haystack, char *neddle)
 
 		if (*neddle == '\0')
 			return (haystack);
-		haystack = startth + 1;
+		haystack = starth + 1;
 	}
 	return (NULL);
 }
