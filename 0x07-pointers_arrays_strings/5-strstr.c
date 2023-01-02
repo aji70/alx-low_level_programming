@@ -17,6 +17,7 @@ char *_strstr(char *haystack, char *neddle)
 	{
 		starth = haystack;
 		neddle = startn;
+
 		while (*haystack == *neddle)
 		{
 			haystack++;
