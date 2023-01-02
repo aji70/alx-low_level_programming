@@ -4,9 +4,9 @@
 /**
  * _strstr - a function that locates a substring
  * @haystack: an input string to search in
- * @neddle: an input string to locate in the string haystack
- * Return: a pointer to the beginning  of the located substring,
- * or NULL if the substring id not fou
+ * @neddle: an input string to locate in string haystack
+ * Return: a pointer to the beginning of the located substring,
+ * or NULL if the substring is not found.
  */
 
 char *_strstr(char *haystack, char *neddle)
@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *neddle)
 		while (*haystack == *neddle)
 		{
 			haystack++;
-			neddle;
+			neddle++;
 		}
 
 		if (*neddle == '\0')
