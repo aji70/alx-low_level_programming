@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <c.type.h>
 
 /**
  * main - A program that adds positive numbers
- * @argc: The arguemenr counter
- * @argv: The arguemenr value
+ * @argc: The arguements counter
+ * @argv: The arguements Values
  * Return: Always 0 (Success)
  */
 
@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 	while (argc-- > 1)
 	{
-		for (1 = 0; argv[argc][i]; i++)
+		for (i = 0; argv[argc][i]; i++)
 		{
 			if (!(isdigit(argv[argc][i])))
 			{
