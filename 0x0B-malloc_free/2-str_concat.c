@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 	while (*s1)
 	{
 		lens1++;
-		s1++
+		s1++;
 	}
 	s1 = starts1;
 	if (s2 == NULL)
